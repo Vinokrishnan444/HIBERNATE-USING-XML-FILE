@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping
+	package="com.niit.hibernatepro.model">
+	<!-- Book-entity mapping -->
+	<class name="Employee">
+		<id name="empid" type="int">
+			<generator class="increment"></generator>
+		</id>
+		<property name="empname" type="string" />
+		<property name="empdesig" type="string" />
+		<property name="empdept" type="string" />
+	</class>
+</hibernate-mapping>
